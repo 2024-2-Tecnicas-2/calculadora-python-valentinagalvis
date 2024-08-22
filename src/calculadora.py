@@ -11,8 +11,15 @@ def calcular(numero1, numero2, operacion):
             # Operación multiplicación
             respuesta = numero1 * numero2
         case '/':
-            # Operación división
-            respuesta = numero1 / numero2
+            # Operación division
+            respuesta = numero1/numero2
+       
+        case '^':
+            # Operación potencia
+            respuesta = numero1**numero2
+        case '%':
+            # Operación modulo
+            respuesta = numero1%numero2
 
         # TODO: DEBES COLOCAR TU CÓDIGO AQUÍ# TODO: DEBES CREAR AQUÍ LOS CASES PARA LA OPERACIÓN DE LA POTENCIA Y EL MÓDULO, COMPROBANDO LOS SÍMBOLOS ^ Y %.
 
